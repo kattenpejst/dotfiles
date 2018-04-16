@@ -1,5 +1,9 @@
 // Place your settings in this file to overwrite the default settings
 {
+    "csharpfixformat.style.spaces.beforeParenthesis": false,
+    "csharpfixformat.style.spaces.beforeBracket": false,
+    "csharpfixformat.style.spaces.beforeIndexerBracket": false,
+    "csharp.format.enable": false,
     "editor.autoClosingBrackets": false,
     "editor.codeLens": false,
     "editor.detectIndentation": true,
@@ -12,5 +16,6 @@
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Solarized Light",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true
 }
