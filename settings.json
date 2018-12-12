@@ -4,7 +4,7 @@
     "csharpfixformat.style.spaces.beforeBracket": false,
     "csharpfixformat.style.spaces.beforeIndexerBracket": false,
     "csharp.format.enable": false,
-    "editor.autoClosingBrackets": false,
+    "editor.autoClosingBrackets": "never",
     "editor.codeLens": false,
     "editor.detectIndentation": true,
     "editor.minimap.enabled": false,
