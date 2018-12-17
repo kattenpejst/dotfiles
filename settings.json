@@ -12,7 +12,7 @@
     "editor.renderWhitespace": "all",
     "editor.rulers": [80,120],
     "git.autofetch": false,
-    "prettier.requireConfig": true,
+    "prettier.requireConfig": false,
     // Git Bash
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "window.zoomLevel": 0,
