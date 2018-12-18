@@ -1,7 +1,13 @@
-# TODO: add user name parameter
+[CmdletBinding()]
+param(
+    [Parameter(Mandatory=$true)]
+    [ValidateNotNullOrEmpty()]
+    [System.String]
+    $username
+)
 
-cmd /c mklink /h "C:\tools\cmder\vendor\conemu-maximus5\ConEmu.xml" "C:\Users\korsa\dotfiles\ConEmu.xml"
-cmd /c mklink /h "C:\Users\korsa\AppData\Roaming\Code\User\settings.json" "C:\Users\korsa\dotfiles\settings.json"
-cmd /c mklink /h "C:\Users\korsa\AppData\Roaming\Keypirinha\User\Keypirinha.ini" "C:\Users\korsa\dotfiles\Keypirinha.ini"
-cmd /c mklink /h "C:\Users\korsa\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1" "C:\Users\korsa\dotfiles\Microsoft.PowerShell_profile.ps1"
-cmd /c mklink /h "C:\Users\korsa\.bash_profile" "C:\Users\korsa\dotfiles\.bash_profile
+cmd /c mklink /h "C:\tools\cmder\vendor\conemu-maximus5\ConEmu.xml" "C:\Users\$username\dotfiles\ConEmu.xml"
+cmd /c mklink /h "C:\Users\$username\AppData\Roaming\Code\User\settings.json" "C:\Users\$username\dotfiles\settings.json"
+cmd /c mklink /h "C:\Users\$username\AppData\Roaming\Keypirinha\User\Keypirinha.ini" "C:\Users\$username\dotfiles\Keypirinha.ini"
+cmd /c mklink /h "C:\Users\$username\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1" "C:\Users\$username\dotfiles\Microsoft.PowerShell_profile.ps1"
+cmd /c mklink /h "C:\Users\$username\.bash_profile" "C:\Users\$username\dotfiles\.bash_profile"
