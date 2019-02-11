@@ -1,0 +1,33 @@
+[user]
+        email = peter.korsback@gmail.com
+        name = Peter Korsbäck
+
+[alias]
+        br = branch
+        ci = commit
+        co = checkout
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        st = status
+
+[merge]
+        tool = kdiff3
+
+[mergetool "kdiff3"]
+        path = C:/Program Files/KDiff3/kdiff3.exe
+        trustExitCode = false
+
+[diff]
+        guitool = kdiff3
+
+[difftool "kdiff3"]
+        path = C:/Program Files/KDiff3/kdiff3.exe
+        trustExitCode = false
+[core]
+        autocrlf = true
+[push]
+        default = current
+[difftool "sourcetree"]
+        cmd = '' \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+        cmd = "'' "
+        trustExitCode = true
