@@ -21,10 +21,13 @@ Run environment setup
 ```
 
 Misc
+* .\RemoveDefaultApps.ps1
 * My Computer/Properties/Advanced/Performance/Settings/Adjust for best performace
   - Show shadows under mouse pointer
   - Show shadows under windows
   - Show windows contents while dragging
   - Smooth edges of screen fonts
   - Smooth-scroll list boxes
+* Disable all privacy violations in windows settings
 * Windows Features - Enable Services for NFS
+* https://www.asus.com/se/Motherboards/PRIME-Z390-A/HelpDesk_Download/
