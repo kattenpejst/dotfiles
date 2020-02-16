@@ -1,8 +1,16 @@
+* Activate Windows
+* Change computer name
+
 Install [Chocolatey](https://chocolatey.org/install)
 
 Install Boxstarter:
 ```powershell
 choco install boxstarter
+```
+
+Allow global confirmation for Chocolatey
+```powershell
+choco feature enable -n allowGlobalConfirmation
 ```
 
 Load Boxstarter module:
@@ -21,6 +29,8 @@ Run environment setup
 ```
 
 Misc
+* Fix UAC
+* Configure Start Menu
 * .\RemoveDefaultApps.ps1
 * My Computer/Properties/Advanced/Performance/Settings/Adjust for best performace
   - Show shadows under mouse pointer
@@ -31,3 +41,7 @@ Misc
 * Disable all privacy violations in windows settings
 * Windows Features - Enable Services for NFS
 * https://www.asus.com/se/Motherboards/PRIME-Z390-A/HelpDesk_Download/
+* Setup apps with settings from dotsettings
+* If KtR computer
+  - set environment variables from Dashlane script
+  - install and configure CAM `choco install nzxt-cam`
