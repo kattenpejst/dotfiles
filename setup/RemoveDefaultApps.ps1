@@ -29,6 +29,7 @@ $applicationList = @(
     "*Solitaire*"
     "Microsoft.MicrosoftStickyNotes"
     "Microsoft.Office.Sway"
+    "Microsoft.Office.OneNote"
     "Microsoft.XboxApp"
     "Microsoft.XboxIdentityProvider"
     "Microsoft.ZuneMusic"
