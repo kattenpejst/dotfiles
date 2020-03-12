@@ -26,6 +26,11 @@
     "workbench.panel.defaultLocation": "right",
     "vsicons.dontShowNewVersionMessage": true,
     "go.useLanguageServer": true,
+    "go.enableCodeLens": {
+        "references": true,
+        "runtest": false
+    },
+    "go.inferGopath": true,
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
