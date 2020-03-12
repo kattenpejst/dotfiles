@@ -56,5 +56,11 @@
     },
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.enabled": false,
+    "git.autorefresh": false,
+    "git.autoRepositoryDetection": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }
