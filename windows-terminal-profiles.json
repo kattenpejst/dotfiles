@@ -1,253 +1,241 @@
-// To view the default settings, hold "alt" while clicking on the "Settings" button.
-// For documentation on these settings, see: https://aka.ms/terminal-documentation
-
 {
-    "$schema": "https://aka.ms/terminal-profiles-schema",
-  
-    "defaultProfile": "{5affac65-a191-4348-8224-b98b225c7914}",
-  
-    "profiles": {
-      "defaults": {
-        // Put settings here that you want to apply to all profiles
-      },
-      "list": [
-        {
-          "guid": "{5affac65-a191-4348-8224-b98b225c7914}",
-          "name": "Git Bash",
-          "commandline": "c:\\Program Files\\Git\\git-cmd.exe --no-cd --command=usr/bin/bash.exe -l -i",
-          "hidden": false,
-          "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
-          "colorScheme": "Solarized Light",
-          "cursorColor": "#000000"
-        },
-        {
-          // Make changes here to the powershell.exe profile
-          "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-          "name": "Windows PowerShell",
-          "commandline": "powershell.exe",
-          "colorScheme": "Solarized Dark",
-          "cursorColor": "#fcf4dc"
-        },
-        {
-          // Make changes here to the cmd.exe profile
-          "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-          "name": "cmd",
-          "commandline": "cmd.exe",
-          "hidden": false,
-          "colorScheme": "Blazer",
-          "cursorColor": "#ffffff"
-        },
-        {
-          "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
-          "hidden": false,
-          "name": "Ubuntu-18.04",
-          "source": "Windows.Terminal.Wsl",
-          "colorScheme": "Violet Light",
-          "cursorColor": "#000000"
-        },
-        {
-          "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-          "hidden": true,
-          "name": "Azure Cloud Shell",
-          "source": "Windows.Terminal.Azure"
-        }
-      ]
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+
+  "defaultProfile": "{5affac65-a191-4348-8224-b98b225c7914}",
+
+  "profiles": {
+    "defaults": {
     },
-  
-    // Add custom color schemes to this array
-    "schemes": [
+    "list": [
       {
-        "name": "Belafonte Day",
-        "black": "#20111b",
-        "red": "#be100e",
-        "green": "#858162",
-        "yellow": "#eaa549",
-        "blue": "#426a79",
-        "purple": "#97522c",
-        "cyan": "#989a9c",
-        "white": "#968c83",
-        "brightBlack": "#5e5252",
-        "brightRed": "#be100e",
-        "brightGreen": "#858162",
-        "brightYellow": "#eaa549",
-        "brightBlue": "#426a79",
-        "brightPurple": "#97522c",
-        "brightCyan": "#989a9c",
-        "brightWhite": "#d5ccba",
-        "background": "#d5ccba",
-        "foreground": "#45373c"
+        "guid": "{5affac65-a191-4348-8224-b98b225c7914}",
+        "name": "Git Bash",
+        "commandline": "c:\\Program Files\\Git\\git-cmd.exe --no-cd --command=usr/bin/bash.exe -l -i",
+        "hidden": false,
+        "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
+        "colorScheme": "Solarized Light",
+        "cursorColor": "#000000"
       },
       {
-        "name": "Blazer",
-        "black": "#000000",
-        "red": "#b87a7a",
-        "green": "#7ab87a",
-        "yellow": "#b8b87a",
-        "blue": "#7a7ab8",
-        "purple": "#b87ab8",
-        "cyan": "#7ab8b8",
-        "white": "#d9d9d9",
-        "brightBlack": "#262626",
-        "brightRed": "#dbbdbd",
-        "brightGreen": "#bddbbd",
-        "brightYellow": "#dbdbbd",
-        "brightBlue": "#bdbddb",
-        "brightPurple": "#dbbddb",
-        "brightCyan": "#bddbdb",
-        "brightWhite": "#ffffff",
-        "background": "#0d1926",
-        "foreground": "#d9e6f2"
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "name": "Windows PowerShell",
+        "commandline": "powershell.exe",
+        "colorScheme": "Solarized Dark",
+        "cursorColor": "#fcf4dc"
       },
       {
-        "name": "Solarized Dark",
-        "black": "#002831",
-        "red": "#d11c24",
-        "green": "#738a05",
-        "yellow": "#a57706",
-        "blue": "#2176c7",
-        "purple": "#c61c6f",
-        "cyan": "#259286",
-        "white": "#eae3cb",
-        "brightBlack": "#475b62",
-        "brightRed": "#bd3613",
-        "brightGreen": "#475b62",
-        "brightYellow": "#536870",
-        "brightBlue": "#708284",
-        "brightPurple": "#5956ba",
-        "brightCyan": "#819090",
-        "brightWhite": "#fcf4dc",
-        "background": "#001e27",
-        "foreground": "#708284"
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "name": "cmd",
+        "commandline": "cmd.exe",
+        "hidden": false,
+        "colorScheme": "Blazer",
+        "cursorColor": "#ffffff"
       },
       {
-        "name": "Solarized Light",
-        "black": "#073642",
-        "red": "#dc322f",
-        "green": "#859900",
-        "yellow": "#b58900",
-        "blue": "#268bd2",
-        "purple": "#d33682",
-        "cyan": "#2aa198",
-        "white": "#eee8d5",
-        "brightBlack": "#002b36",
-        "brightRed": "#cb4b16",
-        "brightGreen": "#586e75",
-        "brightYellow": "#657b83",
-        "brightBlue": "#839496",
-        "brightPurple": "#6c71c4",
-        "brightCyan": "#93a1a1",
-        "brightWhite": "#fdf6e3",
-        "background": "#fdf6e3",
-        "foreground": "#657b83"
+        "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+        "hidden": false,
+        "name": "Ubuntu-18.04",
+        "source": "Windows.Terminal.Wsl",
+        "colorScheme": "Violet Light",
+        "cursorColor": "#000000"
       },
       {
-        "name": "Violet Light",
-        "black": "#56595c",
-        "red": "#c94c22",
-        "green": "#85981c",
-        "yellow": "#b4881d",
-        "blue": "#2e8bce",
-        "purple": "#d13a82",
-        "cyan": "#32a198",
-        "white": "#d3d0c9",
-        "brightBlack": "#45484b",
-        "brightRed": "#bd3613",
-        "brightGreen": "#738a04",
-        "brightYellow": "#a57705",
-        "brightBlue": "#2176c7",
-        "brightPurple": "#c61c6f",
-        "brightCyan": "#259286",
-        "brightWhite": "#c9c6bd",
-        "background": "#fcf4dc",
-        "foreground": "#536870"
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": true,
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure"
       }
-    ],
-  
-    // Add any keybinding overrides to this array.
-    // To unbind a default keybinding, set the command to "unbound"
-    "keybindings": [
-      {
-        "command": "closeTab",
-        "keys": ["ctrl+w"]
-      },
-      {
-        "command": "newTab",
-        "keys": ["ctrl+t"]
-      },
-      {
-        "command": "newTabProfile0",
-        "keys": ["shift+alt+1"]
-      },
-      {
-        "command": "newTabProfile1",
-        "keys": ["shift+alt+2"]
-      },
-      {
-        "command": "newTabProfile2",
-        "keys": ["shift+alt+3"]
-      },
-      {
-        "command": "newTabProfile3",
-        "keys": ["shift+alt+4"]
-      },
-      {
-        "command": "newTabProfile4",
-        "keys": ["shift+alt+5"]
-      },
-      {
-        "command": "newTabProfile5",
-        "keys": ["shift+alt+6"]
-      },
-      {
-        "command": "newTabProfile6",
-        "keys": ["shift+alt+7"]
-      },
-      {
-        "command": "newTabProfile7",
-        "keys": ["shift+alt+8"]
-      },
-      {
-        "command": "newTabProfile8",
-        "keys": ["shift+alt+9"]
-      },
-      {
-        "command": "switchToTab0",
-        "keys": ["ctrl+1"]
-      },
-      {
-        "command": "switchToTab1",
-        "keys": ["ctrl+2"]
-      },
-      {
-        "command": "switchToTab2",
-        "keys": ["ctrl+3"]
-      },
-      {
-        "command": "switchToTab3",
-        "keys": ["ctrl+4"]
-      },
-      {
-        "command": "switchToTab4",
-        "keys": ["ctrl+5"]
-      },
-      {
-        "command": "switchToTab5",
-        "keys": ["ctrl+6"]
-      },
-      {
-        "command": "switchToTab6",
-        "keys": ["ctrl+7"]
-      },
-      {
-        "command": "switchToTab7",
-        "keys": ["ctrl+8"]
-      },
-      {
-        "command": "switchToTab8",
-        "keys": ["ctrl+9"]
-      }
-    ],
-    "showTabsInTitlebar": true,
-    "showTerminalTitleInTitlebar": true
-  }
-  
+    ]
+  },
+  "schemes": [
+    {
+      "name": "Belafonte Day",
+      "black": "#20111b",
+      "red": "#be100e",
+      "green": "#858162",
+      "yellow": "#eaa549",
+      "blue": "#426a79",
+      "purple": "#97522c",
+      "cyan": "#989a9c",
+      "white": "#968c83",
+      "brightBlack": "#5e5252",
+      "brightRed": "#be100e",
+      "brightGreen": "#858162",
+      "brightYellow": "#eaa549",
+      "brightBlue": "#426a79",
+      "brightPurple": "#97522c",
+      "brightCyan": "#989a9c",
+      "brightWhite": "#d5ccba",
+      "background": "#d5ccba",
+      "foreground": "#45373c"
+    },
+    {
+      "name": "Blazer",
+      "black": "#000000",
+      "red": "#b87a7a",
+      "green": "#7ab87a",
+      "yellow": "#b8b87a",
+      "blue": "#7a7ab8",
+      "purple": "#b87ab8",
+      "cyan": "#7ab8b8",
+      "white": "#d9d9d9",
+      "brightBlack": "#262626",
+      "brightRed": "#dbbdbd",
+      "brightGreen": "#bddbbd",
+      "brightYellow": "#dbdbbd",
+      "brightBlue": "#bdbddb",
+      "brightPurple": "#dbbddb",
+      "brightCyan": "#bddbdb",
+      "brightWhite": "#ffffff",
+      "background": "#0d1926",
+      "foreground": "#d9e6f2"
+    },
+    {
+      "name": "Solarized Dark",
+      "black": "#002831",
+      "red": "#d11c24",
+      "green": "#738a05",
+      "yellow": "#a57706",
+      "blue": "#2176c7",
+      "purple": "#c61c6f",
+      "cyan": "#259286",
+      "white": "#eae3cb",
+      "brightBlack": "#475b62",
+      "brightRed": "#bd3613",
+      "brightGreen": "#475b62",
+      "brightYellow": "#536870",
+      "brightBlue": "#708284",
+      "brightPurple": "#5956ba",
+      "brightCyan": "#819090",
+      "brightWhite": "#fcf4dc",
+      "background": "#001e27",
+      "foreground": "#708284"
+    },
+    {
+      "name": "Solarized Light",
+      "black": "#073642",
+      "red": "#dc322f",
+      "green": "#859900",
+      "yellow": "#b58900",
+      "blue": "#268bd2",
+      "purple": "#d33682",
+      "cyan": "#2aa198",
+      "white": "#eee8d5",
+      "brightBlack": "#002b36",
+      "brightRed": "#cb4b16",
+      "brightGreen": "#586e75",
+      "brightYellow": "#657b83",
+      "brightBlue": "#839496",
+      "brightPurple": "#6c71c4",
+      "brightCyan": "#93a1a1",
+      "brightWhite": "#fdf6e3",
+      "background": "#fdf6e3",
+      "foreground": "#657b83"
+    },
+    {
+      "name": "Violet Light",
+      "black": "#56595c",
+      "red": "#c94c22",
+      "green": "#85981c",
+      "yellow": "#b4881d",
+      "blue": "#2e8bce",
+      "purple": "#d13a82",
+      "cyan": "#32a198",
+      "white": "#d3d0c9",
+      "brightBlack": "#45484b",
+      "brightRed": "#bd3613",
+      "brightGreen": "#738a04",
+      "brightYellow": "#a57705",
+      "brightBlue": "#2176c7",
+      "brightPurple": "#c61c6f",
+      "brightCyan": "#259286",
+      "brightWhite": "#c9c6bd",
+      "background": "#fcf4dc",
+      "foreground": "#536870"
+    }
+  ],
+  "keybindings": [
+    {
+      "command": "closeTab",
+      "keys": ["ctrl+w"]
+    },
+    {
+      "command": "newTab",
+      "keys": ["ctrl+t"]
+    },
+    {
+      "command": "newTabProfile0",
+      "keys": ["shift+alt+1"]
+    },
+    {
+      "command": "newTabProfile1",
+      "keys": ["shift+alt+2"]
+    },
+    {
+      "command": "newTabProfile2",
+      "keys": ["shift+alt+3"]
+    },
+    {
+      "command": "newTabProfile3",
+      "keys": ["shift+alt+4"]
+    },
+    {
+      "command": "newTabProfile4",
+      "keys": ["shift+alt+5"]
+    },
+    {
+      "command": "newTabProfile5",
+      "keys": ["shift+alt+6"]
+    },
+    {
+      "command": "newTabProfile6",
+      "keys": ["shift+alt+7"]
+    },
+    {
+      "command": "newTabProfile7",
+      "keys": ["shift+alt+8"]
+    },
+    {
+      "command": "newTabProfile8",
+      "keys": ["shift+alt+9"]
+    },
+    {
+      "command": "switchToTab0",
+      "keys": ["ctrl+1"]
+    },
+    {
+      "command": "switchToTab1",
+      "keys": ["ctrl+2"]
+    },
+    {
+      "command": "switchToTab2",
+      "keys": ["ctrl+3"]
+    },
+    {
+      "command": "switchToTab3",
+      "keys": ["ctrl+4"]
+    },
+    {
+      "command": "switchToTab4",
+      "keys": ["ctrl+5"]
+    },
+    {
+      "command": "switchToTab5",
+      "keys": ["ctrl+6"]
+    },
+    {
+      "command": "switchToTab6",
+      "keys": ["ctrl+7"]
+    },
+    {
+      "command": "switchToTab7",
+      "keys": ["ctrl+8"]
+    },
+    {
+      "command": "switchToTab8",
+      "keys": ["ctrl+9"]
+    }
+  ],
+  "showTabsInTitlebar": true,
+  "showTerminalTitleInTitlebar": true
+}
