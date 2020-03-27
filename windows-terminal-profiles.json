@@ -4,8 +4,7 @@
   "defaultProfile": "{5affac65-a191-4348-8224-b98b225c7914}",
 
   "profiles": {
-    "defaults": {
-    },
+    "defaults": {},
     "list": [
       {
         "guid": "{5affac65-a191-4348-8224-b98b225c7914}",
@@ -162,6 +161,14 @@
     {
       "command": "newTab",
       "keys": ["ctrl+t"]
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "keys": ["ctrl+shift+d"]
     },
     {
       "command": "newTabProfile0",
