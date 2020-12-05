@@ -26,8 +26,4 @@
         autocrlf = true
 [push]
         default = current
-[difftool "sourcetree"]
-        cmd = '' \"$LOCAL\" \"$REMOTE\"
-[mergetool "sourcetree"]
-        cmd = "'' "
-        trustExitCode = true
+
