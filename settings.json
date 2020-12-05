@@ -62,5 +62,13 @@
     "git.autoRepositoryDetection": false,
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[go]": {
+        "editor.defaultFormatter": "golang.go",
+    },
+    "todohighlight.include": [
+        "**/*.go",
+    ],
+    "javascript.updateImportsOnFileMove.enabled": "never"
 }
