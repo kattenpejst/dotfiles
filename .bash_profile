@@ -14,4 +14,6 @@ fi
 
 NODE_ENV=development
 
+PROMPT_COMMAND="history -a"
+
 cd /c/Projects
