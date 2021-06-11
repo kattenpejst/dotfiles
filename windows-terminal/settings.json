@@ -32,46 +32,6 @@
         {
             "command": 
             {
-                "action": "newTab",
-                "index": 0
-            },
-            "keys": "shift+alt+1"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 1
-            },
-            "keys": "shift+alt+2"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 2
-            },
-            "keys": "shift+alt+3"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 3
-            },
-            "keys": "shift+alt+4"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 4
-            },
-            "keys": "shift+alt+5"
-        },
-        {
-            "command": 
-            {
                 "action": "switchToTab",
                 "index": 0
             },
@@ -110,6 +70,7 @@
             "keys": "ctrl+5"
         }
     ],
+    "launchMode": "maximized",
     "profiles": 
     {
         "defaults": {},
@@ -127,6 +88,7 @@
                 "name": "Git Bash"
             },
             {
+                "bellStyle": "none",
                 "colorScheme": "Solarized Dark",
                 "commandline": "powershell.exe",
                 "cursorColor": "#FCF4DC",
@@ -135,6 +97,7 @@
                 "name": "Windows PowerShell"
             },
             {
+                "bellStyle": "none",
                 "colorScheme": "Blazer",
                 "commandline": "cmd.exe",
                 "cursorColor": "#FFFFFF",
@@ -143,7 +106,7 @@
                 "name": "cmd"
             },
             {
-                "colorScheme": "Tango Light",
+                "colorScheme": "Violet Light",
                 "fontFace": "Consolas",
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": true,
