@@ -34,7 +34,7 @@
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "extensions.ignoreRecommendations": false,
+    "extensions.ignoreRecommendations": true,
     "typescript.validate.enable": false,
     "javascript.validate.enable": false,
     "yaml.customTags": [
@@ -70,5 +70,6 @@
     "todohighlight.include": [
         "**/*.go",
     ],
-    "javascript.updateImportsOnFileMove.enabled": "never"
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "redhat.telemetry.enabled": false
 }
