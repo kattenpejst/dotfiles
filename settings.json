@@ -1,9 +1,5 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "csharpfixformat.style.spaces.beforeParenthesis": false,
-    "csharpfixformat.style.spaces.beforeBracket": false,
-    "csharpfixformat.style.spaces.beforeIndexerBracket": false,
-    "csharp.format.enable": false,
     "editor.autoClosingBrackets": "never",
     "editor.codeLens": false,
     "editor.detectIndentation": true,
@@ -41,12 +37,6 @@
     "javascript.suggest.autoImports": false,
     "workbench.panel.defaultLocation": "right",
     "vsicons.dontShowNewVersionMessage": true,
-    "go.useLanguageServer": true,
-    "go.enableCodeLens": {
-        "references": true,
-        "runtest": false
-    },
-    "go.inferGopath": true,
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -80,12 +70,6 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[go]": {
-        "editor.defaultFormatter": "golang.go",
-    },
-    "todohighlight.include": [
-        "**/*.go",
-    ],
     "javascript.updateImportsOnFileMove.enabled": "never",
     "redhat.telemetry.enabled": false
 }
