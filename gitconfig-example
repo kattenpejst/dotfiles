@@ -6,8 +6,9 @@
         br = branch
         ci = commit
         co = checkout
-        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
         st = status
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	clean-local = "!git branch --merged | grep -v '\\*\\|master\\|develop\\|main\\|dev\\|release*' | xargs -n 1 git branch -d"
 
 [merge]
         tool = kdiff3
